@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "name": "vortini",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "angular": "1.5.5",
+    "angular-route": "1.5.5",
+    "ng-forward": "^0.0.1-alpha.12",
+    "requirejs": "^2.2.0"
+  }
+}

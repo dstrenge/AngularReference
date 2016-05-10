@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<script type="text/javascript" src="lib/requirejs/require.js"></script>
+	<script type="text/javascript">
+		'use strict';
+
+		require.config({
+			baseUrl: "./scripts",
+			waitSeconds: 30,
+			paths: {
+				"angular": "../lib/angular/angular"
+			}
+		});
+	</script>
+</head>
+<body>
+	<script type="text/javascript">
+		require(["app/app.module", "angular"], function () {
+			angular.bootstrap(document, ["vo.application"]);
+		});
+	</script>
+</body>
+</html>
